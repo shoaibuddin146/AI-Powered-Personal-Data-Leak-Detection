@@ -1,0 +1,17 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+python-dotenv==1.0.1
+rapidfuzz==3.9.6
+Werkzeug==3.0.3
+requests==2.32.3
+APScheduler==3.10.4
+# Optional: enables Claude-powered AI triage when ANTHROPIC_API_KEY is set
+anthropic>=0.40.0
+# Optional offline research pipeline: install separately for local ML/NER
+# pip install spacy scikit-learn
+# python -m spacy download en_core_web_sm
+
+cryptography>=43.0
+scikit-learn>=1.4
+spacy>=3.7
